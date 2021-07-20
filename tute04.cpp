@@ -29,12 +29,12 @@ int main() {
 }
 long Factorial(int no)
 {
-  int fac;
+  int factorial;
   for(int i=no ; i <= 1 ; i--)
   {
-    fac = fac * i;
+    factorial = factorial * i;
   }
-  return fac;
+  return factorial;
 }
 long nCr(int n, int r)
 {
